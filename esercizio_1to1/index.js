@@ -2,7 +2,7 @@
 */ 
 
 function stringLong (arrayStringhe){
-    if(!Array.isArray(numbers) || numbers.length === 0){
+    if(!Array.isArray(arrayStringhe) || arrayStringhe.length === 0){
         console.log("Inserisci un array valido");
         return;
     }
