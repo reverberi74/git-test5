@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;  /* Centra gli elementi orizzontalmente */
+    justify-content: center; /* Centra verticalmente se necessario */
+    width: 100%;
+    max-width: 400px; /* Limita la larghezza massima del form */
+    margin: 20px auto; /* Centra il form orizzontalmente */
+    padding: 20px;
+    border-radius: 10px;
+    background: #f8f8f8;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+/* Allinea e distanzia gli input */
+input, select, button {
+    width: 100%;  /* Fa occupare tutto lo spazio disponibile */
+    padding: 10px;
+    margin: 8px 0; /* Distanza tra gli input */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* Miglioramento estetico dei pulsanti */
+button {
+    background-color: #007BFF;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}

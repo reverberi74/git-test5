@@ -1,7 +1,7 @@
 //crea una funzione che restituisce un array con i primi x numeri a partire da un numero n
 function nNumeri (a, b){
     let arrayRitorno = [];
-   for (let i = 0; i < b; i++){
+   for (let i = 0; i <= b; i++){
     arrayRitorno.push(a + i);
    }
    return arrayRitorno;
